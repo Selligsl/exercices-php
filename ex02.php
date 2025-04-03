@@ -7,3 +7,15 @@
 //     afficher i
 // fin
 
+$i="0";
+echo $i. " ";
+while ($i <= 20) {
+    $i +=1;
+    if ($i %2 == 0) {
+        echo $i." ";}}
+    
+    
+
+
+
+?>

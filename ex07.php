@@ -7,3 +7,10 @@
 //   fact *= i
 // afficher fact
 
+$fact = 1;
+$i = 5;
+
+for($a=1; $a<=$i; $a++) {
+    $fact=$fact*$a;}
+
+    echo "Factorielle de : ".$i." est : ".$fact;

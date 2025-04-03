@@ -7,3 +7,11 @@
 //   somme += i
 // afficher somme
 
+$somme = 0;
+
+for ($i=0; $i <= 100;$i++) {
+    $somme += $i;}
+
+    if ($i >=100){ echo $somme." ";}
+
+           
